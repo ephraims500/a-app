@@ -1,0 +1,77 @@
+:root{
+    --red-color: #c0392b;
+
+    --sm-box-shadow: 0 5px 30px 0 rgba(43, 43, 43, 0.3);
+    --md-box-shadow: 0 12px 50px 0 rgba(43, 43, 43, 0.3);
+}
+
+@import url("components/rewards_portal.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #fff;
+}
+
+.hero-bg{
+    background: url(../img/bg.jpg) no-repeat center center / cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-bg_form-container{
+    background: #fff;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    top: 15vh;
+    padding: 20px;
+    box-shadow: var(--md-box-shadow);
+    border-radius: 5px;
+}
+
+.hero-bg_form{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.hero-bg_form-first-content img{
+    width: 30%;
+    float: right;
+}
+
+.hero-bg_form input{
+    margin-bottom: 2em;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+}
+
+.hero-bg_form-h2{
+    margin-top: 5vh;
+}
+.email{
+    margin-top: 5vh;
+}
+
+.hero-form-login_btn{
+    background: var(--red-color);
+    width: 90%;
+    padding: 10px;
+    color: #fff; 
+}
+
+.hero-form-access-btn{
+    border: 1px solid var(--red-color);
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: var(--red-color);     
+}
