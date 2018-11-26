@@ -5,21 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UBA_Rewards_Admin</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="css/components/rewards_portal.css">
 </head>
 <body>
-    <div class="rewards-portal_nav-container">
-        <ul class="rewards-portal_navbar">
-            <li class="rewards-portal_img">
-                <img src="img/rewards-logo.png" alt="Rewards Portal">
-            </li>
-            <li>
-                <i class="fas fa-bell"></i>
-            </li>
-            <li>
-                <img class="rewards-portal_avatar" src="img/profile.png" alt="">
-            </li>
-        </ul>
+
+    <div class="grid-container">
+        <header class="header">
+            <div class="header__desc"><img class="header__logo" src="img/rewards-logo.png" alt="Rewards Portal"></div>
+            <div class="header__profile"><i class="fas fa-bell"></i><img class="header__avatar-img" src="img/profile.png" alt=""></div>
+        </header>
+        <aside class="sidenav">
+            <ul class="sidenav__list">
+                <li class="sidenav__list-item">Dashboard</li>
+                <li class="sidenav__list-item">Content Managment</li>
+                <li class="sidenav__list-item">User Managment</li>
+                <li class="sidenav__list-item">Reporting</li>
+                <li class="sidenav__list-item">System Settings</li>
+                <div class="sidenav__footer">
+                    <img src="img/logo-red.png" width="50%" alt="UBA Logo">
+                    <p>Copyright &copy; 2018 UBA Group PLC.<br>Powered by Interswitch</p>
+                </div>
+            </ul>
+        </aside>
+        <main class="main"></main>
     </div>
+
+    <main class="main">
+            <div class="stats-header">
+              <div class="stats-header__heading">Dashboard <span class="today-stats">Today: 23 Nov</span></div>
+              <div class="stats-header__updates"><p class="wrapper"><input placeholder="Search"/></p></div>
+            </div>
+        
+                <div class="main-cards">
+              <div class="card">
+                  <p class="main-card__bold-p">1,234</p>Registered Customers
+                  <img class="main-card__data-img" src="img/data-1.PNG" alt="">
+                </div>
+
+              <div class="card"><p class="main-card__bold-p">3,456</p>Value of Redemptions
+                <img class="main-card__data-img" src="img/data-2.PNG" alt="">
+            </div>
+
+              <div class="card">
+                  <div class="card-summary">
+                        <h3>Summary</h3>
+                        <p>Month <span class="red-box__desc">All Time</span></p>
+                  </div>
+               
+                <div class="card-summary__content">
+                    <div class="item-1">
+                        <p>Lorem Ipsuim</p>
+                        123456789
+                    </div>
+                    <div class="item-2">
+                        <p>Lorem Ipsuim</p>
+                        123456789
+                    </div>
+                  <div class="item-3">
+                    <p>Lorem Ipsuim</p>
+                    123456789
+                  </div>
+                   <div class="item-4">
+                    <p>Lorem Ipsuim</p>
+                    123456789
+                   </div>
+                </div>
+                <img class="big-data" src="img/big-data.PNG" alt="">
+                </div>
+
+              <div class="card">
+                  <p class="main-card__bold-p">1,234</p>Points Redeemd
+                  <img class="main-card__data-img" src="img/data-3.PNG" alt="">
+                </div>
+
+              <div class="card">
+                  <p class="main-card__bold-p">1,234</p>Cash Spend (Debit Card)
+                  <img class="main-card__data-img" src="img/data-4.PNG" alt="">
+                </div>
+            </div>
+          </main>
 </body>
 </html>
